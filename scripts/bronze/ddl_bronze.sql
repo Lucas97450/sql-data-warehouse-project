@@ -60,16 +60,6 @@ GO
 IF OBJECT_ID ('bronze.erp_loc_a101', 'U') IS NOT NULL
 	DROP TABLE bronze.erp_loc_a101;
 GO
-/*
-===============================================================================
-DDL Script: Create Bronze Tables
-===============================================================================
-Script Purpose:
-    This script creates tables in the 'bronze' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
-===============================================================================
-*/
   
 CREATE TABLE bronze.erp_loc_a101 (
 	cid   NVARCHAR(50),
